@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="author" content="Pohangggg">
+    <meta name="description" content="Resume - Maulana Ajie Pamungkas">
+    <meta name="keywords" content="resume, curicculum vitae, map, cv, php, html, css, javascript">
+
+	<title>Rushing.in — Resume</title>
+
+	<link rel="icon" href="./assets/img/favicon.ico">
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous">
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap">
+
+	<link rel="stylesheet" href="./assets/css/bootstrap-icons.min.css">
+	<link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+	<link rel="stylesheet" href="./assets/css/sweetalert2.min.css">
+	<link rel="stylesheet" href="./assets/css/style.min.css">
+	<link rel="stylesheet" href="./assets/css/media.min.css">
+
+</head>
+<body>
+	<div id="moving"></div>
+	<div class="overlay"></div>
+	<button id="btn-menu"><i class="bi bi-list"></i></button>
+
+	<!-- HEADER ---------------------------------------------------->
+	<header class="header container" id="navigate">
+		<nav class="nav">
+			<a href="/" class="nav-logo">Resume</a>
+			<div class="nav-menu">
+				<ul class="nav-list">
+					<li class="nav-item">
+						<a href="#home" class="nav-link nav-active">
+							<i class="bi bi-house"></i>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="#about" class="nav-link">
+							<i class="bi bi-info-circle"></i>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="#education" class="nav-link">
+							<i class="bi bi-mortarboard"></i>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="#skills" class="nav-link">
+							<i class="bi bi-controller"></i>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="#services" class="nav-link">
+							<i class="bi bi-tools"></i>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="#portfolio" class="nav-link">
+							<i class="bi bi-briefcase"></i>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="#testimonial" class="nav-link">
+							<i class="bi bi-megaphone"></i>
+						</a>
+					</li>
+					<li class="nav-item">
+						<a href="#contact" class="nav-link">
+							<i class="bi bi-chat-dots"></i>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<!-- <i class="bi bi-toggle-off" id="btn-toggle"></i> -->
+			<i class="bi bi-sun-fill" id="btn-toggle"></i>
+		</nav>
+	</header>
+	<!-- CONTENT --------------------------------------------------->
+	<main class="main" id="home">
+		<section class="home section">
+			<div class="img-container">
+				<img src="./assets/img/profile.jpeg" alt="Profile" class="img-home"/>
+			</div>
+			<div class="container grid">
+				<div class="data">
+					<h1 class="name">Maulana Ajie <br> Pamungkas</h1>
+					<h3 class="headline"><span id="auto"></span></h3>
+					<div class="btn-container">
+						<a href="#contact" class="btn">Contact<i class="bi bi-chat-dots bi-btn"></i></a>
+						<a href="./assets/pdf/cv_map.pdf" download="" class="btn btn-ghost">Resume<i class="bi bi-cloud-download bi-btn"></i></a>
+					</div>
+				</div>
+			</div>
+			<!-- ABSOLUTE ICONS --------------------------------------------------->
+			<!--
+			<ul class="socials">
+				<li class="item">
+					<a href="https://facebook.com/m.ajie.pmgks" class="a-link" target="_blank">
+						<i class="bi bi-facebook"></i>
+					</a>
+				</li>
+				<li class="item">
+					<a href="https://twitter.com/maulaji" class="a-link" target="_blank">
+						<i class="bi bi-twitter"></i>
+					</a>
+				</li>
+				<li class="item">
+					<a href="https://linkedin.com/in/omjipanggg" class="a-link" target="_blank">
+						<i class="bi bi-linkedin"></i>
+					</a>
+				</li>
+			</ul>
+			-->
+			<a href="#about" class="scroll">
+				<i class="bi bi-mouse2 icon"></i>
+			</a>
+		</section>
+		<section class="about section" id="about">
+			<p class="section-subtitle">Background</p>
+			<h1 class="section-title"><a href="#about">Summary</a></h1>
+			<div class="container grid">
+				<!-- <img src="./assets/img/formal.jpg" alt="Profile"/> -->
+				<div class="data">
+					<p class="description">Highly skilled and passionate full-stack developer with expertise in several popular frameworks. Proficient in both client-side and server-side programming with a strong understanding in the web development. Actively expanding skill set by learning new technologies to stay on the cutting edge of software development. Adept at designing, developing, and deploying webapps that deliver exceptional user experience and functionality.</p>
+					<div class="info">
+						<div class="box hovered">
+							<i class="bi bi-clipboard-check"></i>
+							<h3 class="title">20+ Projects</h3>
+							<p class="subtitle">Completed</p>
+						</div>
+						<div class="box hovered">
+							<i class="bi bi-award"></i>
+							<h3 class="title">5+ Years</h3>
+							<p class="subtitle">Experience</p>
+						</div>
+						<div class="box hovered">
+							<i class="bi bi-building"></i>
+							<h3 class="title">4+ Companies</h3>
+							<p class="subtitle">Worked</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="education section" id="education">
+			<p class="section-subtitle">Qualification</p>
+			<h1 class="section-title"><a href="#education">Education</a></h1>
+			<div class="container flex">
+				<div class="card border">
+					<h1 class="title"><a href="https://maps.app.goo.gl/WAuAwAwWUjPSPC2U9" target="_blank">AMIKOM University</a></h1>
+					<p>Bachelor of Science (in Informatics)</p>
+					<small>Graduated in 2018 &mdash; CGPA 3.75 out of 4.00</small>
+					<a href="https://repository.amikom.ac.id/files/2018/Publikasi_14.61.0033.pdf" target="_blank" class="btn link">Publication</a>
+				</div>
+			</div>
+		</section>
+		<section class="skills section" id="skills">
+			<p class="section-subtitle">Skills</p>
+			<h1 class="section-title"><a href="#skills">Expertise</a></h1>
+			<div class="container grid">
+				<div class="content">
+					<h2 class="title">Hard Skills</h2>
+					<div class="box">
+						<div class="group">
+							<div class="data">
+								<i class="bi bi-check-circle"></i>
+								<div class="wrap">
+									<h3 class="name">Client-side programming</h3>
+									<p class="level">Bootstrap, Tailwind, React.js, Vue.js</p>
+								</div>
+							</div>
+							<div class="data">
+								<i class="bi bi-check-circle"></i>
+								<div class="wrap">
+									<h3 class="name">Data analysis</h3>
+									<p class="level">R-Studio, SPSS-25</p>
+								</div>
+							</div>
+							<div class="data">
+								<i class="bi bi-check-circle"></i>
+								<div class="wrap">
+									<h3 class="name">Data entry</h3>
+									<p class="level">Microsoft office</p>
+								</div>
+							</div>
+							<div class="data">
+								<i class="bi bi-check-circle"></i>
+								<div class="wrap">
+									<h3 class="name">Database management</h3>
+									<p class="level">MySQL, MongoDB, Oracle, PostgreSQL</p>
+								</div>
+							</div>
+						</div>
+						<div class="group">
+							<div class="data">
+								<i class="bi bi-check-circle"></i>
+								<div class="wrap">
+									<h3 class="name">Graphical design</h3>
+									<p class="level">CorelDRAW, Photoshop</p>
+								</div>
+							</div>
+							<div class="data">
+								<i class="bi bi-check-circle"></i>
+								<div class="wrap">
+									<h3 class="name">Microsoft office</h3>
+									<p class="level">Excel, Word, PowerPoint</p>
+								</div>
+							</div>
+							<div class="data">
+								<i class="bi bi-check-circle"></i>
+								<div class="wrap">
+									<h3 class="name">Networking configuration</h3>
+									<p class="level">MikroTik, Cisco, Switch, VLAN, DHCP, QOS</p>
+								</div>
+							</div>
+							<div class="data">
+								<i class="bi bi-check-circle"></i>
+								<div class="wrap">
+									<h3 class="name">Server-side programming</h3>
+									<p class="level">Node.js, JAVA, Python, Django, PHP, Laravel</p>
+								</div>
+							</div>
+						</div>
+						<div class="group">
+							<div class="data">
+								<i class="bi bi-check-circle"></i>
+								<div class="wrap">
+									<h3 class="name">Troubleshooting</h3>
+									<p class="level">Maintenance and services</p>
+								</div>
+							</div>
+							<div class="data">
+								<i class="bi bi-check-circle"></i>
+								<div class="wrap">
+									<h3 class="name">Version Control</h3>
+									<p class="level">Git, GitHub, GitLab, SVN</p>
+								</div>
+							</div>
+							<div class="data">
+								<i class="bi bi-check-circle"></i>
+								<div class="wrap">
+									<h3 class="name">Video editing</h3>
+									<p class="level">CapCut, Vegas Pro</p>
+								</div>
+							</div>
+							<div class="data">
+								<i class="bi bi-check-circle"></i>
+								<div class="wrap">
+									<h3 class="name">Web development</h3>
+									<p class="level">HTML, CSS, JS, WordPress</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="content">
+					<h2 class="title">Soft Skills</h2>
+					<div class="box">
+						<div class="group">
+							<div class="data">
+								<i class="bi bi-check-circle"></i>
+								<div class="wrap">
+									<h3 class="name">Adaptability</h3>
+									<p class="level"></p>
+								</div>
+							</div>
+							<div class="data">
+								<i class="bi bi-check-circle"></i>
+								<div class="wrap">
+									<h3 class="name">Analytical thinking</h3>
+									<p class="level"></p>
+								</div>
+							</div>
+							<div class="data">
+								<i class="bi bi-check-circle"></i>
+								<div class="wrap">
+									<h3 class="name">Communication</h3>
+									<p class="level"></p>
+								</div>
+							</div>
+						</div>
+						<div class="group">
+							<div class="data">
+								<i class="bi bi-check-circle"></i>
+								<div class="wrap">
+									<h3 class="name">Creativity</h3>
+									<p class="level"></p>
+								</div>
+							</div>
+							<div class="data">
+								<i class="bi bi-check-circle"></i>
+								<div class="wrap">
+									<h3 class="name">Critical thinking</h3>
+									<p class="level"></p>
+								</div>
+							</div>
+							<div class="data">
+								<i class="bi bi-check-circle"></i>
+								<div class="wrap">
+									<h3 class="name">Detail-oriented</h3>
+									<p class="level"></p>
+								</div>
+							</div>
+						</div>
+						<div class="group">
+							<div class="data">
+								<i class="bi bi-check-circle"></i>
+								<div class="wrap">
+									<h3 class="name">Fast learner</h3>
+									<p class="level"></p>
+								</div>
+							</div>
+							<div class="data">
+								<i class="bi bi-check-circle"></i>
+								<div class="wrap">
+									<h3 class="name">Management</h3>
+									<p class="level"></p>
+								</div>
+							</div>
+							<div class="data">
+								<i class="bi bi-check-circle"></i>
+								<div class="wrap">
+									<h3 class="name">Multitasking</h3>
+									<p class="level"></p>
+								</div>
+							</div>
+						</div>
+						<div class="group">
+							<div class="data">
+								<i class="bi bi-check-circle"></i>
+								<div class="wrap">
+									<h3 class="name">Organization</h3>
+									<p class="level"></p>
+								</div>
+							</div>
+							<div class="data">
+								<i class="bi bi-check-circle"></i>
+								<div class="wrap">
+									<h3 class="name">Problem-solving</h3>
+									<p class="level"></p>
+								</div>
+							</div>
+							<div class="data">
+								<i class="bi bi-check-circle"></i>
+								<div class="wrap">
+									<h3 class="name">Teamwork</h3>
+									<p class="level"></p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="services section" id="services">
+			<p class="section-subtitle">Services</p>
+			<h1 class="section-title">
+				<a href="#services">Experience</a>
+			</h1>
+			<div class="container grid">
+				<div class="card">
+					<i class="bi bi-suit-diamond-fill"></i>
+					<h3 class="title">Back-End<br/>Developer</h3>
+					<a href="#" class="btn-service">More<i class="bi bi-arrow-right-short"></i></a>
+					<div class="modal">
+						<div class="modal-body">
+							<i class="bi bi-x close"></i>
+							<h3 class="modal-title">Back-End Developer</h3>
+							<p class="modal-subtitle">More than 5 years of experience building scalable, secure, and high-performance server-side applications, proficient in C# (.NET), PHP (CodeIgniter, Laravel), Python (Django), and Node.js (JavaScript)</p>
+							<ul class="modal-list">
+								<li class="modal-item">Architected backend services to ensure reliable communication between distributed systems, microservices, and third-party APIs</li>
+								<li class="modal-item">Strengthened data security across servers using authentication layers, encryption, and robust validation pipelines</li>
+								<li class="modal-item">Optimized backend workflows by analyzing bottlenecks, implementing caching strategies, and improving database queries</li>
+								<li class="modal-item">Designed and maintained RESTful API endpoints supporting multi-platforms with consistent and predictable data delivery</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<i class="bi bi-suit-heart-fill"></i>
+					<h3 class="title">Database<br/>Administrator</h3>
+					<a href="#" class="btn-service">More<i class="bi bi-arrow-right-short"></i></a>
+					<div class="modal">
+						<div class="modal-body">
+							<i class="bi bi-x close"></i>
+							<h3 class="modal-title">Database Administrator</h3>
+							<p class="modal-subtitle">Experienced DBA with a strong background in designing, implementing, optimizing, and maintaining relational database systems, including MySQL, MongoDB, Oracle, and PostgreSQL environments</p>
+							<ul class="modal-list">
+								<li class="modal-item">Designed normalized schemas, optimized queries, and implemented database best practices for performance, scalability, and reliability</li>
+								<li class="modal-item">Implemented backup strategies, recovery procedures, and data-protection standards to ensure system availability and business continuity</li>
+								<li class="modal-item">Conducted pre-implementation workshops to enhance user understanding of database-integrated systems and ensure smooth transition</li>
+								<li class="modal-item">Supported deployment cycles by preparing migration plans, and ensuring updates met performance and security requirements</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<i class="bi bi-suit-club-fill"></i>
+					<h3 class="title">Front-End<br/>Developer</h3>
+					<a href="#" class="btn-service">More<i class="bi bi-arrow-right-short"></i></a>
+					<div class="modal">
+						<div class="modal-body">
+							<i class="bi bi-x close"></i>
+							<h3 class="modal-title">Front-End Developer</h3>
+							<p class="modal-subtitle">Self-motivated and versatile Front-End Developer with over 4 years of experience designing, developing, and optimizing modern web applications, responsive interfaces, and internal UI frameworks</p>
+							<ul class="modal-list">
+								<li class="modal-item">Designed and developed user-friendly interfaces for various applications, modules, and system dashboards</li>
+								<li class="modal-item">Specialized in creating responsive, accessible, and high-performance user interfaces with reusable components and clean code structures</li>
+								<li class="modal-item">Translated concepts or mockups, wireframes, and design specifications into fully functional, interactive front-end features</li>
+								<li class="modal-item">Proficient with modern frontend libraries and frameworks including React.js, Vue.js, Bootstrap, Tailwind, and etc</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="card">
+					<i class="bi bi-suit-spade-fill"></i>
+					<h3 class="title">UI/UX<br/>Designer</h3>
+					<a href="#" class="btn-service">More<i class="bi bi-arrow-right-short"></i></a>
+					<div class="modal">
+						<div class="modal-body">
+							<i class="bi bi-x close"></i>
+							<h3 class="modal-title">UI/UX Designer</h3>
+							<p class="modal-subtitle">Goal-focused UI/UX designer with a solid background in responsive web design. Fluently speaking in HTML, CSS, JS and widely used UI frameworks, with a strong ability to translate concepts</p>
+							<ul class="modal-list">
+								<li class="modal-item">Designed mockups, wireframes, and UI specification documents based on user requirements and stakeholder inputs</li>
+								<li class="modal-item">Developed fully responsive websites and interfaces that adapt seamlessly to various screen sizes and interaction patterns</li>
+								<li class="modal-item">Collaborated closely with teams to ensure visual consistency, accessibility, and smooth user experience</li>
+								<li class="modal-item">Planned and conducted usability testing sessions, analyzed user behavior, and integrated feedback into refined UI/UX improvements</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="work section" id="portfolio">
+			<p class="section-subtitle">Products</p>
+			<h3 class="section-title">
+				<a href="#portfolio">Portfolio</a>
+			</h3>
+			<div class="filter">
+				<span class="w-item work-active" data-filter=".design">JavaScript</span>
+				<span class="w-item" data-filter=".theme">PHP</span>
+				<span class="w-item" data-filter=".web">Python</span>
+				<!-- <span class="w-item" data-filter="all">All</span> -->
+			</div>
+			<div class="container grid">
+				<div class="card mix web">
+					<img src="./assets/img/portfolio/django-microblog.png" alt="Resume"/>
+					<div class="flex-column">
+						<small class="small">Microblog, my very first website creation that utilized the Django framework, and a simple CRUD functionality.</small>
+						<h3 class="title">Django</h3>
+					</div>
+					<div class="line"></div>
+				</div>
+				<div class="card mix web">
+					<img src="./assets/img/portfolio/django-todo.png" alt="Resume"/>
+					<div class="flex-column">
+						<small class="small">Simple2do, yet another classic to do list application, but this one was developed by using Django, utilized its authentication, configuration and environment.</small>
+						<h3 class="title">Django</h3>
+					</div>
+					<div class="line"></div>
+				</div>
+				<div class="card mix design">
+					<img src="./assets/img/portfolio/react-tasks.png" alt="Resume"/>
+					<div class="flex-column">
+						<small class="small">Tasklist, a classic to do list application built using React.js by utilizing the dynamic states, cycles and props.</small>
+						<h3 class="title">React.js</h3>
+					</div>
+					<div class="line"></div>
+				</div>
+				<div class="card mix design">
+					<img src="./assets/img/portfolio/react-mobies.png" alt="Resume"/>
+					<div class="flex-column">
+						<small class="small">Mobies, a list of movies with its corresponding ratings and reviews, built using React.js, and fetched the dataset from <a href="https://www.themoviedb.org/">TMDB</a>, using RestAPI for the mappings.</small>
+						<h3 class="title">Vue.js</h3>
+					</div>
+					<div class="line"></div>
+				</div>
+				<div class="card mix theme">
+					<img src="./assets/img/portfolio/betta.png" alt="Resume"/>
+					<div class="flex-column">
+						<small class="small">BettaBenggala, runs on a local environment, one of my early projects I have developed when I was just starting to learn some programing languages.</small>
+						<h3 class="title">PHP</h3>
+					</div>
+					<div class="line"></div>
+				</div>
+				<div class="card mix theme">
+					<img src="./assets/img/portfolio/hostel.png" alt="Resume"/>
+					<div class="flex-column">
+						<small class="small">Hostel, a website that accommodates room reservations and other additional facilities.</small>
+						<h3 class="title">PHP</h3>
+					</div>
+					<div class="line"></div>
+				</div>
+				<div class="card mix design web">
+					<img src="./assets/img/portfolio/django-rps.png" alt="Resume"/>
+					<div class="flex-column">
+						<small class="small">RPS. This was actually a JavaScript's popular "Rock-Paper-Scissor" application, but deployed on the same server as the previous one within a Django environment.</small>
+						<h3 class="title">JavaScript, Django</h3>
+					</div>
+					<div class="line"></div>
+				</div>
+				<div class="card mix web">
+					<img src="./assets/img/portfolio/django-birbs.png" alt="Resume"/>
+					<div class="flex-column">
+						<small class="small">Misrocite, a forum-like application that allows users to communicate with others, to have a real-time conversation.</small>
+						<h3 class="title">Django</h3>
+					</div>
+					<div class="line"></div>
+				</div>
+				<div class="card mix theme">
+					<img src="./assets/img/portfolio/citampers.png" alt="Resume"/>
+					<div class="flex-column">
+						<small class="small">Citampers, a read-only walktrough of an 8-bit pixelated game called "Citampi Story", I made this tutorial 'cause I love this game sooo much.</small>
+						<h3 class="title">PHP</h3>
+					</div>
+					<div class="line"></div>
+				</div>
+				<div class="card mix design theme">
+					<img src="./assets/img/portfolio/esteh.png" alt="Resume"/>
+					<div class="flex-column">
+						<small class="small">Nusantara, a point of sales kind-of-application, it has the complete functions and ability as a simple POS application, including crud, payment, and invoice generation.</small>
+						<h3 class="title">JavaScript, PHP</h3>
+					</div>
+					<div class="line"></div>
+				</div>
+				<div class="card mix theme">
+					<img src="./assets/img/portfolio/hum.png" alt="Resume"/>
+					<div class="flex-column">
+						<small class="small"><a href="https://hum.ptkam.co.id" target="_blank">Monica</a>, a monitoring system to keep track of the billing collection process.</small>
+						<h3 class="title">Laravel</h3>
+					</div>
+					<div class="line"></div>
+				</div>
+				<div class="card mix theme">
+					<img src="./assets/img/portfolio/ngodeng.png" alt="Resume"/>
+					<div class="flex-column">
+						<small class="small">Ngodeng, yet another POS application of a small business of Korean f&amp;b to handle its products, orders, services, payments, etc.</small>
+						<h3 class="title">Laravel</h3>
+					</div>
+					<div class="line"></div>
+				</div>
+				<div class="card mix theme">
+					<img src="./assets/img/portfolio/kawin.png" alt="Resume"/>
+					<div class="flex-column">
+						<small class="small">Kawinan, some sort of customizable online wedding invitation.</small>
+						<h3 class="title">PHP</h3>
+					</div>
+					<div class="line"></div>
+				</div>
+				<div class="card mix theme">
+					<img src="./assets/img/portfolio/kelana.png" alt="Resume"/>
+					<div class="flex-column">
+						<small class="small">Kelana, a simple read-only company profile.</small>
+						<h3 class="title">PHP</h3>
+					</div>
+					<div class="line"></div>
+				</div>
+				<div class="card mix theme">
+					<img src="./assets/img/portfolio/sabrina.png" alt="Resume"/>
+					<div class="flex-column">
+						<small class="small">Sabrina, a classic scoring application of employee's performance.</small>
+						<h3 class="title">Laravel</h3>
+					</div>
+					<div class="line"></div>
+				</div>
+				<div class="card mix theme">
+					<img src="./assets/img/portfolio/nikah.png" alt="Resume"/>
+					<div class="flex-column">
+						<small class="small">Nikahan, yet another customizable online wedding invitation.</small>
+						<h3 class="title">PHP</h3>
+					</div>
+					<div class="line"></div>
+				</div>
+				<div class="card mix theme">
+					<img src="./assets/img/portfolio/selena.png" alt="Resume"/>
+					<div class="flex-column">
+						<small class="small"><a href="https://selena.ptkam.co.id" target="_blank">Selena</a>, an all-in-one recruitment system, from screening, scheduling, self-assessment, automatic contract generation to their termination.</small>
+						<h3 class="title">Laravel</h3>
+					</div>
+					<div class="line"></div>
+				</div>
+				<div class="card mix theme">
+					<img src="./assets/img/portfolio/vas.png" alt="Resume"/>
+					<div class="flex-column">
+						<small class="small"><a href="https://vas.ptkam.co.id" target="_blank">Fadelta</a>, a visitor system to support the billing collection (Monica) process.</small>
+						<h3 class="title">Laravel</h3>
+					</div>
+					<div class="line"></div>
+				</div>
+			</div>
+			<div class="spacer">
+				<p>Feel free to <a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&su=The%20site%20is%20working!&to=maulana.ajie.pamungkas@gmail.com" target="_blank" class="btn-email">leave me a message</a> via email, or kindly use the provided form below.
+				</p>
+			</div>
+		</section>
+		<section class="testimonial section" id="testimonial">
+			<p class="section-subtitle">Feedback</p>
+			<h3 class="section-title"><a href="#testimonial">Testimonial</a></h3>
+			<div class="swiper container">
+				<div class="swiper-wrapper wrap">
+					<div class="swiper-slide card border">
+						<img src="./assets/img/1.png" alt="Testimonial"/>
+						<div class="info">
+							<h3 class="name">Himsa Yudhistira</h3>
+							<p class="description">Mobile Developer</p>
+						</div>
+						<p class="feedback">Humble and kind-hearted, he was always being so helpful when we worked together.</p>
+					</div>
+					<div class="swiper-slide card border">
+						<img src="./assets/img/2.png" alt="Testimonial"/>
+						<div class="info">
+							<h3 class="name">Zahra Diva</h3>
+							<p class="description">Business Analyst</p>
+						</div>
+						<p class="feedback">I'd say he is the kind of guy you can always count on. 10/10, he'll always have your back.</p>
+					</div>
+					<div class="swiper-slide card border">
+						<img src="./assets/img/3.png" alt="Testimonial"/>
+						<div class="info">
+							<h3 class="name">Hansen</h3>
+							<p class="description">Full Stack Developer</p>
+						</div>
+						<p class="feedback">He helped me a lot, not only in the workfield, but also in my personal life.</p>
+					</div>
+					<div class="swiper-slide card border">
+						<img src="./assets/img/5.png" alt="Testimonial"/>
+						<div class="info">
+							<h3 class="name">Muammar Zaid</h3>
+							<p class="description">Field Operator</p>
+						</div>
+						<p class="feedback">I would like to pretty much consider him as one of my loyal best of friend.</p>
+					</div>
+				</div>
+				<div class="swiper-pagination"></div>
+			</div>
+		</section>
+		<section class="contact section" id="contact">
+			<p class="section-subtitle">Details</p>
+			<h3 class="section-title"><a href="#contact">Contact</a></h3>
+			<div class="container grid">
+				<div class="content">
+					<div class="info">
+						<div class="card border">
+							<i class="bi bi-telegram"></i>
+							<div class="wrap">
+							<h3 class="contact-title">Telegram</h3>
+							<p class="detail">@<a href="https://telegram.me/jipmgks" target="_blank" class="clinks">jipmgks</a></p>
+							</div>
+						</div>
+						<div class="card border">
+							<i class="bi bi-whatsapp"></i>
+							<div class="wrap">
+							<h3 class="contact-title">Whatsapp</h3>
+							<p class="detail"><a href="https://api.whatsapp.com/send?phone=6281806060979&text=Mesin%20cuci%20butuh%20noda." target="_blank" class="clinks">(62) 818 0606 0979</a></p>
+							</div>
+						</div>
+						<!--
+						<div class="card">
+							<i class="bi bi-envelope"></i>
+							<div class="wrap">
+							<h3 class="contact-title">Email address</h3>
+							<p class="detail"><a href="https://mail.google.com/mail/u/0/?fs=1&tf=cm&source=mailto&su=The%20site%20is%20working!&to=maulana.ajie.pamungkas@gmail.com" target="_blank" class="clinks">maulana.ajie.pamungkas@gmail.com</a></p>
+							</div>
+						</div>
+						-->
+					</div>
+				</div>
+				<div class="content">
+					<form action="./config/email.php" method="POST">
+						<div class="input-group">
+							<label for="name" class="border">Name</label>
+							<input type="text" placeholder="Enter your name" class="form-input" id="name" autocomplete="off" required="true" name="name"/>
+						</div>
+						<div class="input-group">
+							<label for="email" class="border">Email</label>
+							<input type="email" placeholder="Enter your email address" class="form-input" id="email" autocomplete="off" required="true" name="email"/>
+						</div>
+						<div class="input-group">
+							<label for="message" class="border">Message</label>
+							<textarea name="message" id="message" cols="30" rows="8" class="from-textarea" placeholder="Write me something" autocomplete="off" required="true"></textarea>
+						</div>
+						<button class="btn btn-send" id="btn-send">Send</button>
+					</form>
+				</div>
+			</div>
+		</section>
+	</main>
+	<!-- FOOTER ---------------------------------------------------->
+	<footer class="footer container" id="footer">
+<!--
+		<h1 class="f-title">Maula</h1>
+		<ul class="f-list">
+			<li class="f-item"><a href="#about" class="f-link">About</a></li>
+			<li class="f-item"><a href="#contact" class="f-link">Contact</a></li>
+			<li class="f-item"><a href="#home" class="f-link">Home</a></li>
+			<li class="f-item"><a href="#portfolio" class="f-link">Portfolio</a></li>
+			<li class="f-item"><a href="#services" class="f-link">Services</a></li>
+			<li class="f-item"><a href="#skills" class="f-link">Skills</a></li>
+			<li class="f-item"><a href="#testimonial" class="f-link">Testimonial</a></li>
+		</ul>
+-->
+		<ul class="f-social">
+			<li class="f-item"><a href="https://facebook.com/m.ajie.pmgks" class="f-link"><i class="bi bi-facebook"></i></a></li>
+			<li class="f-item"><a href="https://instagram.com/jipmgks" class="f-link"><i class="bi bi-instagram"></i></a></li>
+			<li class="f-item"><a href="https://twitter.com/maulaji" class="f-link"><i class="bi bi-twitter"></i></a></li>
+			<li class="f-item"><a href="https://github.com/omjipanggg" class="f-link"><i class="bi bi-github"></i></a></li>
+			<li class="f-item"><a href="https://linkedin.com/in/omjipanggg" class="f-link"><i class="bi bi-linkedin"></i></a></li>
+		</ul>
+
+		<p class="copy">Thank you sooo much for visiting! ✌️😁</p>
+	</footer>
+	<script src="./assets/js/jquery-3.5.1.min.js"></script>
+	<script src="./assets/js/mixitup.min.js"></script>
+	<script src="./assets/js/swiper-bundle.min.js"></script>
+	<script src="./assets/js/typed.min.js"></script>
+	<script src="./assets/js/sweetalert2.all.min.js"></script>
+	<script src="./assets/js/custom.min.js"></script>
+</body>
+</html>

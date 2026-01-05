@@ -1,0 +1,72 @@
+/*===================================================================*/
+/*MEDIA*/
+@media screen and (min-width: 976px) {
+	:root {
+		--big-size: 2rem;
+		--h1-size: 1.75rem;
+		--h2-size: 1.5rem;
+		--h3-size: 1.25rem;
+		--normal-size: 1rem;
+	}
+}
+@media screen and (min-width: 768px) {
+	.work .container {
+		grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	}
+}
+@media screen and (max-width: 767.98px) {
+	:root {
+		--static: 2rem;
+	}
+	.about .info {
+		grid-template-columns: 1fr;
+	}
+	.about .description {
+		text-align: justify;
+		padding: 0;
+	}
+	.about img {
+		width: 100%;
+	}
+	.section { padding: 6rem 0; }
+	.container {
+		padding: 1rem!important;
+	}
+	.services .modal {
+		top: 2rem;
+		left: 2rem;
+		bottom: 2.25rem;
+		right: 2rem;
+		transform: translate(0, 0);
+	}
+	.services .modal-body {
+		padding: 2rem;
+		line-height: 1.25;
+	}
+	.work .filter {
+		border-radius: 0;
+	}
+	.testimonial img {
+		width: 50px;
+		height: 50px;
+	}
+	.footer .title {
+		margin: 1rem 0 2rem;
+	}
+	.footer .copy {
+		margin-top: 1rem;
+	}
+	.contact .card {
+		flex-basis: 100%;
+	}
+	.nav-item {
+		flex-basis: 20%;
+	}
+}
+@media screen and (max-width: 767.98px) and (orientation: landscape) {
+	.services .close {
+		top: .25rem;
+		left: 1rem;
+		bottom: auto;
+	}
+}
